@@ -6,7 +6,7 @@ using namespace std;
 
 void DecimalToBinary(int n){
     if(n==0){
-       return;
+        return;
     }else{
         int rest=n/2;
         DecimalToBinary(rest);
